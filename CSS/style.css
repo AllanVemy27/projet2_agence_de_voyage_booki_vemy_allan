@@ -6,3 +6,8 @@ list-style-type: none;
 .rechercher {
     border-radius: 80px;
 }
+
+.nav 
+{
+  float: right;  
+}
