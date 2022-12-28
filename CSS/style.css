@@ -1,5 +1,5 @@
 .logo {
-  
+
 }
 
 li
@@ -19,6 +19,7 @@ list-style-type: none;
 .container {
   display: flex;
   justify-content: flex-start;
+  margin: auto;
 }
 
 .image.container {
