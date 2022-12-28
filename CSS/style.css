@@ -16,4 +16,10 @@ list-style-type: none;
 
 .container {
   display: flex;
+  justify-content: flex-start;
+}
+
+img {
+  width: 60%;
+  height: 60%;
 }
