@@ -1,4 +1,6 @@
-
+.logo {
+  
+}
 
 li
 {
@@ -19,7 +21,7 @@ list-style-type: none;
   justify-content: flex-start;
 }
 
-img {
+.image.container {
   width: 60%;
   height: 60%;
 }
