@@ -1,3 +1,5 @@
+
+
 .nav ul
 {
 	margin: 0px;
@@ -37,11 +39,12 @@ white;
 {   display: block;
 	text-align: left;
 	text-decoration: none;
-  width: 25%;
-  height: 60%;
+  width: 7.5em;
+  height: 15em;
 
 }
 
 li {
   list-style: none;
 }
+
