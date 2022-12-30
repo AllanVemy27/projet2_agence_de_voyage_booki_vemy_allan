@@ -2,8 +2,6 @@ nav
 {
     display: inline-block;
     width: 900px;
-    text-align: right;
-	vertical-align: top;
 }
  
 nav ul
@@ -15,7 +13,6 @@ nav li
 {
     display: inline-block;
     margin-right: 15px;
-	vertical-align: top;
 }
  
 nav a
@@ -39,5 +36,4 @@ li {
 	width: 75px;
 	height: 35px;
 	display: inline-block;
-	vertical-align: top;
 }
