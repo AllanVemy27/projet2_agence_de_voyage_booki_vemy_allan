@@ -56,3 +56,10 @@ h2 {
 main {
     font-family: 'Raleway';
 }
+
+.image.container
+{
+    width: 246px;
+    height: 124px;
+    border-radius: 20px;
+}
