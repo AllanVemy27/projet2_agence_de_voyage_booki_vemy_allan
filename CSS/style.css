@@ -39,3 +39,7 @@ li {
 	height: 40px;
 	display: inline-block;
 }
+
+.stars {
+    color: #0065FC;
+}
