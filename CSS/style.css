@@ -12,6 +12,7 @@ nav li
 {
     display: inline-block;
     margin-right: 15px;
+    align-items: flex-end;
 }
  
 nav a
