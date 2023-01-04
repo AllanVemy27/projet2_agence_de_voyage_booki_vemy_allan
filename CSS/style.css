@@ -44,6 +44,15 @@ li {
     color: #0065FC;
 }
 
+h1 {
+    font-family: 'Raleway';*
+    font-size: 22px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
 main {
     font-family: 'Raleway';
 }
