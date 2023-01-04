@@ -66,3 +66,7 @@ img {
 .container {
     padding: 2px 16px;
 }
+
+.element1 {
+    display: flexbox;
+}
