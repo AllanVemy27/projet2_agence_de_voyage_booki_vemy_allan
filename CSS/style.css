@@ -3,6 +3,10 @@ header {
     justify-content: flex-start;
 }
 
+.logo img {
+    width: 100px;
+}
+
 nav
 {
     display: inline-block;
