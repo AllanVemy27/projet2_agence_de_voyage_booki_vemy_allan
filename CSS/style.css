@@ -1,4 +1,7 @@
-
+header {
+    display: flexbox;
+    justify-content: flex-start;
+}
 
 nav
 {
