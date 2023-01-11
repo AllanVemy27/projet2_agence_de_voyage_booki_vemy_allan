@@ -31,9 +31,9 @@ nav a:hover
 }
 
 li {
-  list-style: none;
+    margin-left: 40px;
+    list-style: none;
 }
-
 .logo {
 	width: 100px;
 	height: 40px;
@@ -45,7 +45,7 @@ li {
 }
 
 h1 {
-    font-family: 'Raleway';*
+    font-family: 'Raleway';
     font-size: 22px;
 }
 
