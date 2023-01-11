@@ -1,6 +1,8 @@
 header {
-    display: flexbox;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
 }
 
 .logo img {
