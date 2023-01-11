@@ -7,9 +7,15 @@ header {
     width: 100px;
 }
 
-nav
-{
-    display: inline-block;
+menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 }
  
 nav ul
@@ -17,12 +23,6 @@ nav ul
     list-style-type: none;
 }
  
-nav li
-{
-    display: inline-block;
-    margin-right: 15px;
-    align-items: flex-end;
-}
  
 nav a
 {
