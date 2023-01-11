@@ -39,6 +39,52 @@ li {
     margin-left: 40px;
     list-style: none;
 }
+#filtres {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 30px 0px 30px 0px;
+    /* justify-content: space-between; */
+}
+
+#filtres h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.icon {
+    color: #0065FC;
+    font-size: 20px;
+}
+
+#filtres form {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+#filtres button {
+    padding: 12px 20px 12px 20px;
+    border-radius: 60px;
+    border-width: 2px;
+    background: white;
+    border-color: #D9D9D9;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    /* margin-left: 50px; */
+}
+
+#filtres button i {
+    margin-right: 0.3em;
+}
+
+#filtres button:hover {
+    background: #DEEBFF;
+}
+
+
 
 
 
