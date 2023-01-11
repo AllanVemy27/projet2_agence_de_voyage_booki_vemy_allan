@@ -40,9 +40,7 @@ li {
 	display: inline-block;
 }
 
-.stars {
-    color: #0065FC;
-}
+
 
 h1 {
     font-family: 'Raleway';
@@ -85,4 +83,9 @@ main {
     justify-content: center;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.stars {
+    margin-left: 8px;
+    margin-bottom: 3px;
 }
