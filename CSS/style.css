@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     height: 80px;
     width: 100%;
 }
@@ -133,7 +134,6 @@ li {
     font-size: 15px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    /* margin-left: 50px; */
 }
 
 #filtres button i {
@@ -170,7 +170,7 @@ li {
     padding-top: 3px;
 }
 
-.heb-pop {
+.sec-populaire {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -178,25 +178,15 @@ li {
     margin-bottom: 50px;
 }
 
-.heb-pop a {
+.sec-populaire a {
     width: 31%;
 }
 
-.heb-pop .sec-populaires a {
-    width: 100%;
-}
 
 .sec-hebergements {
     width: 63%;
     border-radius: 20px;
     padding: 40px 40px 20px 40px;
-    background: #F2F2F2;
-}
-
-.sec-populaires {
-    width: 33%;
-    border-radius: 20px;
-    padding: 40px 40px 0px 40px;
     background: #F2F2F2;
 }
 
