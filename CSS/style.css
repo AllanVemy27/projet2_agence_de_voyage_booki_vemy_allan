@@ -170,42 +170,55 @@ li {
     padding-top: 3px;
 }
 
-h1 {
-    font-family: 'Raleway';
+.heb-pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.heb-pop a {
+    width: 31%;
+}
+
+.heb-pop .sec-populaires a {
+    width: 100%;
+}
+
+.sec-hebergements {
+    width: 63%;
+    border-radius: 20px;
+    padding: 40px 40px 20px 40px;
+    background: #F2F2F2;
+}
+
+.sec-populaires {
+    width: 33%;
+    border-radius: 20px;
+    padding: 40px 40px 0px 40px;
+    background: #F2F2F2;
+}
+
+.sec-hebergements h2 {
     font-size: 22px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 30px;
 }
 
-h2 {
-    font-family: 'Raleway';
-    font-size: 16px;
-    font-weight: bold;
-}
-main {
-    font-family: 'Raleway';
-}
-
-.imagecontainer {
-    border-radius: 20px 20px 20px 20px;
-    width: 30%;
-    height: 40%;
-}
-
-
-.containeractivites {
-    padding: 2px 16px;
-}
-
-.hebergement {
+.sec-hebergements .more {
     display: flex;
-    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.fa-solid {
-    color:#0065fc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+.star-blue {
+    color: #0065FC;
+}
+
+.star-grey {
+    color: #F2F2F2;
 }
 
 .stars {
