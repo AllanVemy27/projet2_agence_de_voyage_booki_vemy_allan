@@ -190,17 +190,14 @@ main {
     height: 40%;
 }
 
-.containerhebergement {
-    background: #F2F2F2;
-    padding: 2px 16px;
-}
+
 .containeractivites {
-    background: #F2F2F2;
     padding: 2px 16px;
 }
 
-.element1 {
-    display: flexbox;
+.hebergement {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .fa-solid {
