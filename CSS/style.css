@@ -184,7 +184,8 @@ li {
 
 
 .sec-hebergements {
-    width: 63%;
+    width: 880px;
+    height: 626px;
     border-radius: 20px;
     padding: 40px 40px 20px 40px;
     background: #F2F2F2;
@@ -207,9 +208,9 @@ li {
     margin-left: 8px;
     margin-bottom: 3px;
 }
-.img {
-    width: 80px;
-    height: 60px;
+imagecontainer img {
+    width: 246px;
+    height: 124px;
 }
 
 .logo {
