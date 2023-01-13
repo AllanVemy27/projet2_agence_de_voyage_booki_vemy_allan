@@ -71,6 +71,7 @@ li {
     align-items: center;
     border-radius: 15px 0px 0px 15px;
     font-size: 20px;
+    background:#F2F2F2;
 }
 
 #recherche-form input[type=text] {
