@@ -169,41 +169,6 @@ li {
 .info-text {
     padding-top: 3px;
 }
-
-.sec-populaire {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.sec-populaire a {
-    width: 31%;
-}
-
-
-.sec-hebergements {
-    width: 880px;
-    height: 626px;
-    border-radius: 20px;
-    padding: 40px 40px 20px 40px;
-    background: #F2F2F2;
-}
-
-.sec-hebergements h2 {
-    font-size: 22px;
-    font-weight: 700;
-    margin: 0px 0px 0px 0px;
-    margin-bottom: 30px;
-}
-
-.sec-hebergements .more {
-    display: flex;
-    font-size: 18px;
-    font-weight: 700;
-}
-
 .stars {
     margin-left: 8px;
     margin-bottom: 3px;
