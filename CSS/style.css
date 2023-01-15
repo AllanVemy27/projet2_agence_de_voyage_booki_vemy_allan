@@ -182,3 +182,13 @@ imagecontainer img {
     height: 40px;
     width: 100px;
 }
+
+
+.fa-solid fa-star {
+    width: 12px;
+    height: 12px;
+}
+
+a {
+    text-decoration: none;
+}
