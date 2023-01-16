@@ -208,3 +208,16 @@ imagecontainer img {
 a {
     text-decoration: none;
 }
+
+.p-heb {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.prix-heb {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
