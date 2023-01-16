@@ -1,3 +1,16 @@
+h1 {
+    font-family: 'Raleway';
+    font-size: 22px;
+}
+h2 {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+h3{
+    font-family: "Raleway";
+    font-size: 18px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -167,6 +180,8 @@ li {
 }
 
 .info-text {
+    font-family: 'Raleway';
+    font-size: 16px;
     padding-top: 3px;
 }
 .stars {
