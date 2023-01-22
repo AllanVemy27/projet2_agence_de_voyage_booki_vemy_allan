@@ -1,3 +1,4 @@
+/** Architecture du site **/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); 
 
 h1 {
@@ -23,7 +24,10 @@ header {
     height: 80px;
     width: 100%;
 }
-
+.col {
+    display: flex;
+    flex-direction: column;
+}
 .logo img {
     width: 100px;
 }
@@ -65,6 +69,9 @@ li {
     margin-left: 40px;
     list-style: none;
 }
+
+
+/** Formulaire + Filtres **/
 #recherche {
     margin: 0;
 }
@@ -217,6 +224,7 @@ a {
     text-decoration: none;
 }
 
+/** Hebergements + Les plus populaires **/ 
 .heb-pop {
     display: flex;
     flex-direction: row;
@@ -265,7 +273,7 @@ a {
 
 
 
-
+/** Personnalisation des étoiles bleus et grises **/
 .star-blue {
     color: #0065FC;
 }
@@ -424,7 +432,7 @@ a {
     color: #0065FC;
 }
 
-
+/** Partie activites **/
 .activites-titre {
     margin: 0px 0px 10px 0px;
 }
@@ -478,3 +486,23 @@ a {
 }
 
 
+/** Pied de page du site Internet **/
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #F2F2F2;
+    justify-content: center;
+    padding: 45px 70px 45px 70px;
+    margin: 60px 0px 0 0;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+footer div {
+    width: 33%;
+}
