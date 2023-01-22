@@ -4,14 +4,17 @@ h1 {
     font-family: 'Raleway';
     font-size: 22px;
 }
-h2 {
-    font-family: 'Raleway';
-    font-size: 16px;
-}
+
 
 h3{
     font-family: "Raleway";
     font-size: 18px;
+}
+
+.titre-h2 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
 }
 header {
     display: flex;
@@ -231,7 +234,8 @@ a {
 }
 
 .sec-hebergements {
-    width: 63%;
+    width:1200px;
+    height: 626px;
     border-radius: 20px;
     padding: 40px 40px 20px 40px;
     background: #F2F2F2;
