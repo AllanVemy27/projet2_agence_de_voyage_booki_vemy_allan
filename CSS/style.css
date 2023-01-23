@@ -1,5 +1,10 @@
-/** Architecture du site **/
+/** Importation de la poilice correspondant au site **/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); 
+
+
+
+/** Architecture du site **/
 
 h1 {
     font-family: 'Raleway';
