@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); 
 
-@media screen and (min-width: 992px max-width: 1400px)
+@media screen all (min-width: 992px max-width: 1400px)
 
 
 /** Architecture du site **/
