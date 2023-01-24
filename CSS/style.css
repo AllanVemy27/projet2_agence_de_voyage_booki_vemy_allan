@@ -22,6 +22,8 @@ h3{
     font-size: 22px;
     font-weight: 700;
 }
+
+/** Header du site **/
 header {
     display: flex;
     justify-content: space-between;
@@ -37,6 +39,8 @@ header {
     width: 100px;
 }
 
+
+/** Partie menu **/
 menu {
     display: flex;
     justify-content: space-between;
@@ -76,7 +80,7 @@ li {
 }
 
 
-/** Formulaire + Filtres **/
+/** Formulaire **/
 #recherche {
     margin: 0;
 }
@@ -129,7 +133,7 @@ li {
 }
 
 
-
+/** Filtres **/
 
 #filtres {
     display: flex;
@@ -219,12 +223,6 @@ imagecontainer img {
     width: 100px;
 }
 
-
-.fa-solid fa-star {
-    width: 12px;
-    height: 12px;
-}
-
 a {
     text-decoration: none;
 }
@@ -247,8 +245,7 @@ a {
 }
 
 .sec-hebergements {
-    width: auto;
-    height: auto;
+    width: 63%;
     border-radius: 20px;
     padding: 40px 40px 20px 40px;
     background: #F2F2F2;
@@ -259,7 +256,6 @@ a {
     border-radius: 20px;
     padding: 40px 40px 0px 40px;
     background: #F2F2F2;
-    margin: 0px 0px 0px 40px;
 }
 
 .sec-hebergements h2 {
@@ -275,17 +271,6 @@ a {
     font-weight: 700;
 }
 
-
-
-
-/** Personnalisation des étoiles bleus et grises **/
-.star-blue {
-    color: #0065FC;
-}
-
-.star-grey {
-    color: #F2F2F2;
-}
 
 
 
@@ -491,7 +476,9 @@ a {
 }
 
 
-/** Pied de page du site Internet **/
+
+
+/** Pied de page du projet **/
 footer {
     display: flex;
     flex-direction: row;
@@ -511,3 +498,15 @@ footer h3 {
 footer div {
     width: 33%;
 }
+
+
+/** Personnalisation des étoiles bleus et grises **/
+.star-blue {
+    color: #0065FC;
+}
+
+.star-grey {
+    color: #F2F2F2;
+}
+
+
