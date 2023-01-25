@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); 
 
-@media screen all (min-width: 992px max-width: 1400px)
 
 
 /** Architecture du site **/
-
+html {
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
 h1 {
     font-family: 'Raleway';
     font-size: 22px;
@@ -22,6 +25,19 @@ h3{
     font-family: 'Raleway';
     font-size: 22px;
     font-weight: 700;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 992px;
+    padding: 60px 55px 55px 55px;
+    align-content: center;
+}
+
+main {
+    align-content: center;
 }
 
 /** Header du site **/
@@ -473,6 +489,7 @@ a {
 .activites-box img {
     object-position: 0px 23px;
     transform: scale(1.15);
+    column-gap: 20px;
 }
 
 .activites-box .activites-img-vertical {
