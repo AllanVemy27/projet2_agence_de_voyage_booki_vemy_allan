@@ -1,103 +1,113 @@
-/** Importation de la poilice correspondant au site **/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); 
+* {
+    box-sizing: border-box;
+}
 
-
-
-/** Architecture du site **/
 html {
-    max-width: 1400px;
     margin: 0;
     padding: 0;
 }
-h1 {
-    font-family: 'Raleway';
-    font-size: 22px;
-}
-
-
-h3{
-    font-family: "Raleway";
-    font-size: 18px;
-}
-
-.titre-h2 {
-    font-family: 'Raleway';
-    font-size: 22px;
-    font-weight: 700;
-}
 
 body {
+    
     font-family: 'Raleway', sans-serif;
-    margin: 50px 0px 0px 50px;
+    margin: 0 auto;
     max-width: 1400px;
-    min-width: 992px;
-    padding: 60px 55px 55px 55px;
-    align-content: center;
+    padding: 44px 55px 0px 55px;
 }
 
-main {
-    align-content: center;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-/** Header du site **/
 header {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     height: 80px;
     width: 100%;
 }
+
+#logo img {
+    width: 61px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+menu li {
+    width: 120px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.blue-bar {
+    position: absolute;
+    margin-left: -21px;
+    top: 0;
+    background: #0065FC;
+    width: 162px;
+    height: 2px;
+    opacity: 0;
+}
+
+menu a {
+    text-decoration: none;
+    color: black;
+}
+
+menu a:hover {
+    color: #0065FC;
+}
+
+menu a:hover .blue-bar {
+    opacity: 1;
+}
+
+
+
+
+/* ========== Le corps du site avec main ========== */
+
+main {
+    width: 100%;
+}
+
 .col {
     display: flex;
     flex-direction: column;
 }
-.logo img {
-    width: 100px;
-}
 
-
-/** Partie menu **/
-menu {
+.row {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
-    margin-top: 0;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Raleway';
 }
 
- 
-nav ul
-{
-    list-style-type: none;
-}
- 
- 
-nav a
-{
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
-}
- 
-nav a:hover
-{
-    color: #0065FC;
-    border-top: 2px solid;
-    padding-top: 2px;
-	;
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
 
-li {
-    margin-left: 40px;
-    list-style: none;
+.titre-h2 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 
-/** Formulaire **/
+
+
+
+
+/* ========== Partie avec formulaire de recherche et filtres ========== */
+
 #recherche {
     margin: 0;
 }
@@ -113,7 +123,7 @@ li {
 #recherche-form {
     display: flex;
     flex-direction: row;
-    /* height: 50px; */
+    height: 50px;
 }
 
 #recherche-form .icon-gps {
@@ -121,9 +131,9 @@ li {
     width: 50px;
     justify-content: center;
     align-items: center;
+    background: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     font-size: 20px;
-    background:#F2F2F2;
 }
 
 #recherche-form input[type=text] {
@@ -150,16 +160,13 @@ li {
 }
 
 
-/** Filtres **/
+
 
 #filtres {
     display: flex;
     align-items: center;
-    width: 1400px;
-    height: auto;
-    top: 1000px;
-    left: 82px;
-    margin: 20px 0px 30px 0px;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
 }
 
 #filtres h3 {
@@ -169,35 +176,40 @@ li {
 
 .icon {
     color: #0065FC;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #filtres form {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 67%;
 }
 
 #filtres button {
-    padding: 12px 20px 12px 20px;
+    padding: 12px 15px 12px 15px;
     border-radius: 60px;
     border-width: 2px;
     background: white;
     border-color: #D9D9D9;
     border-style: solid;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-    margin-right: auto
+    align-items: center;
+    /* margin-left: 50px; */
 }
 
 #filtres button i {
-    margin-right: 1px;
+    margin-right: 0.3em;
 }
 
 #filtres button:hover {
     background: #DEEBFF;
 }
+
+
+
+
 
 .infos {
     display: flex;
@@ -222,29 +234,17 @@ li {
 }
 
 .info-text {
-    font-family: 'Raleway';
-    font-size: 16px;
     padding-top: 3px;
 }
-.stars {
-    margin-left: 8px;
-    margin-bottom: 3px;
-}
-imagecontainer img {
-    width: 246px;
-    height: 124px;
-}
 
-.logo {
-    height: 40px;
-    width: 100px;
-}
 
-a {
-    text-decoration: none;
-}
 
-/** Hebergements + Les plus populaires **/ 
+
+
+
+
+/* ========== Partie hebergements et populaires ========== */
+
 .heb-pop {
     display: flex;
     flex-direction: row;
@@ -266,7 +266,6 @@ a {
     border-radius: 20px;
     padding: 40px 40px 20px 40px;
     background: #F2F2F2;
-    margin: 0px 10px 0px 0px;
 }
 
 .sec-populaires {
@@ -289,6 +288,17 @@ a {
     font-weight: 700;
 }
 
+
+
+
+
+.star-blue {
+    color: #0065FC;
+}
+
+.star-grey {
+    color: #F2F2F2;
+}
 
 
 
@@ -354,6 +364,39 @@ a {
 }
 
 
+
+
+
+
+
+
+
+.titre-pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10%;
+    /* margin-bottom: 30px; */
+}
+
+.titre-pop h2 {
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.titre-pop i {
+    font-size: 18px;
+    color: #0065FC;
+}
+
+
+
+
+
+
+/* Cartes horizontales*/
 .space-vertical {
     display: flex;
     flex-direction: column;
@@ -420,27 +463,13 @@ a {
 }
 
 
-.titre-pop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 10%;
-    /* margin-bottom: 30px; */
-}
 
-.titre-pop h2 {
-    margin: 0px 0px 0px 0px;
-    font-size: 22px;
-    font-weight: 700;
-}
 
-.titre-pop i {
-    font-size: 18px;
-    color: #0065FC;
-}
 
-/** Partie activites **/
+
+
+/* ========== Partie activités ========== */
+
 .activites-titre {
     margin: 0px 0px 10px 0px;
 }
@@ -448,11 +477,8 @@ a {
 .sec-activites {
     display: flex;
     flex-direction: row;
-    width: 1137px;
-    height: 493px;
-    justify-content: space-evenly;
-    margin: 10px 0px 0px 0px;
-    padding-right: 10px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .sec-activites a {
@@ -462,13 +488,11 @@ a {
 .activites-box {
     display: flex;
     flex-direction: column;
-    width: 302px;
-    height: 445px;
+    width: 100%;
+    height: 440px;
     border-radius: 20px;
     box-shadow: #D9D9D9 0px 3px 10px;
     overflow: hidden;
-    margin-left: 5%;
-
 }
 
 .activites-bg {
@@ -498,13 +522,13 @@ a {
     transform: scale(1.20);
 }
 
-/** Partie ou je sais pas trop 
-#column-gap {
-    column-gap: 15em;
-}
-**/ 
 
-/** Pied de page du projet **/
+
+
+
+
+/* ========== Footer ========== */
+
 footer {
     display: flex;
     flex-direction: row;
@@ -524,15 +548,3 @@ footer h3 {
 footer div {
     width: 33%;
 }
-
-
-/** Personnalisation des étoiles bleus et grises **/
-.star-blue {
-    color: #0065FC;
-}
-
-.star-grey {
-    color: #F2F2F2;
-}
-
-
