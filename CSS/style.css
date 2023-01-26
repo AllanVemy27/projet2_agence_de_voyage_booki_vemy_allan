@@ -29,7 +29,7 @@ h3{
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: auto;
+    margin: 50px 0px 0px 50px;
     max-width: 1400px;
     min-width: 992px;
     padding: 60px 55px 55px 55px;
@@ -450,8 +450,9 @@ a {
     flex-direction: row;
     width: 1137px;
     height: 493px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 10px 0px 0px 0px;
+    padding-right: 10px;
 }
 
 .sec-activites a {
@@ -466,6 +467,8 @@ a {
     border-radius: 20px;
     box-shadow: #D9D9D9 0px 3px 10px;
     overflow: hidden;
+    margin-left: 5%;
+
 }
 
 .activites-bg {
@@ -489,15 +492,17 @@ a {
 .activites-box img {
     object-position: 0px 23px;
     transform: scale(1.15);
-    column-gap: 20px;
 }
 
 .activites-box .activites-img-vertical {
     transform: scale(1.20);
 }
 
-
-
+/** Partie ou je sais pas trop 
+#column-gap {
+    column-gap: 15em;
+}
+**/ 
 
 /** Pied de page du projet **/
 footer {
