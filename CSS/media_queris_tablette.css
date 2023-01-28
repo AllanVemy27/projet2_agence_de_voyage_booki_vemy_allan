@@ -31,7 +31,7 @@
 
 
     .heb-pop {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .sec-hebergements {
