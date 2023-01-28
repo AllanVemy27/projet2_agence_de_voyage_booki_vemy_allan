@@ -17,11 +17,11 @@
         font-size: 20px;
     }
 
-    #filtres form {
+    .filtres form {
         width: 100%;
     }
     
-    #filtres button {
+    .filtres button {
         margin-left: 10px;
         font-size: 0.8em;
         padding: 8px 12px 8px 12px;

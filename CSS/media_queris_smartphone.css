@@ -1,1 +1,260 @@
-@media {max-width: 768px}
+@media (max-width: 768px) {
+
+    html {
+        height: auto;
+        width: 100%;
+        min-width: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        flex-direction: column;
+        width: 100%;
+        min-width: 0;
+        padding: 0;
+    }
+
+    header {
+        min-width: 0;
+        margin: 0 0 20px 0;
+        padding: 20px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    menu {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-width: 0;
+    }
+    
+    menu li {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .blue-bar {
+        display: flex;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        top: auto;
+        bottom: -45px;
+        background: #F2F2F2;
+        width: 100%;
+        height: 3px;
+        opacity: 1;
+    }
+
+    menu a:hover .blue-bar {
+        background: #0065FC;
+    }
+
+
+    h1 {
+        font-size: 23px;
+    }
+
+    #recherche-form .icon-gps {
+        width: 80px;
+    }
+
+    #recherche-form input[type=text] {
+        width: 100%;
+    }
+
+    #recherche .cherch-txt-loupe > i {
+    display: inline;
+}
+
+    #recherche .cherch-txt-loupe > span {
+    display: none;
+}
+
+
+    section {
+        padding: 20px;
+    }
+
+
+
+
+
+    .filtres {
+        display: block;
+    }
+
+    .filtres form {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .filtres h3 {
+        display: block;
+        margin:0;
+    }
+    
+    .filtres button {
+        display: flex;
+        /* font-size: 11px; */
+        font-size: 0.8em;
+        width: 48%;
+        padding: 10px 0px 10px 10px;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .icon {
+        color: #0065FC;
+        font-size: 1.8em;
+    }
+
+
+    .infos {
+        align-items: flex-start;
+        font-size: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .info-icon {
+        margin-right: 5px;
+    }
+    
+
+    .heb-pop {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .sec-hebergements {
+        min-width: 0;
+        width: auto;
+        border-radius: 0;
+        background: white;
+        order: 2;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .sec-hebergements .more {
+        display:none;
+    }
+
+    .sec-populaires {
+        min-width: 0;
+        width: auto;
+        margin-top: 0;
+        border-radius: 0;
+        padding: 20px;
+        order: 1;
+    }
+
+
+
+    .cartes-box {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cartes-box a {
+        width: 100%;
+    }
+
+    .cartes {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .space-vertical {
+        flex-direction: column;
+        margin: 30px 0 20px 0;
+    }
+
+    .space-vertical a {
+        width: 100%;
+    }
+
+    .cartes-horiz {
+        margin-bottom: 10px;
+        height: 149px;
+        width: 100%;
+    }
+
+    .cartes-bg-horiz {
+        width: 117px;
+    }
+
+    .cartes-desc-horiz {
+        width: 55%;
+        padding: 0px 0px 0px 8px;
+    }
+
+    .cartes-desc-horiz p {
+        font-size: 13px;
+    }
+
+
+
+    .activites-titre {
+        width: 100%;
+    }
+
+    .sec-activites {
+        flex-direction: column;
+    }
+
+    .sec-activites a {
+        width: 100%;
+    }
+
+    .activites-box {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+
+    .activites-bg {
+        display: inline-block;
+    }
+
+    .activites-box img {
+        object-position: 0px -25px;
+        transform: scale(1.00);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .activites-box .activites-img-vertical {
+        width: 100%;
+        object-position: 0px -150px;
+    }
+
+
+
+    footer {
+        width: auto;
+        flex-direction: column;
+    }
+
+    footer div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
