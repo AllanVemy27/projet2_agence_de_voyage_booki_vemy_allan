@@ -1,5 +1,5 @@
 /** Dimension de la page version tablette : 768x991px *//
-@media (min-width: 768px) and (max-width: 991px) { /* 768 991*/
+@media (min-width: 768px) and (max-width: 991px) { /* 768 x 991*/
     nav li {
         text-align: right;
         margin: 0;
